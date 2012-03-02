@@ -1,0 +1,14 @@
+*.cof
+*.mcp
+*.mcw
+*.hex
+*.lst
+*.pjt
+*.sym
+*.tre
+*.err
+/DigitalClock.HEX
+/DigitalClock.LST
+/DigitalClock.PJT
+/DigitalClock.SYM
+/DigitalClockPIC.mcs

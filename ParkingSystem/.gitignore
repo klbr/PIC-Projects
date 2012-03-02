@@ -1,0 +1,11 @@
+
+*.cof
+*.err
+*.LST
+*.mcp
+*.mcs
+*.mcw
+*.PJT
+*.SYM
+*.tre
+*.$$$
