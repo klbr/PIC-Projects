@@ -1,3 +1,5 @@
+//Definição dos pinos utilizados
+
 #define FLASH_A PIN_D0
 #define FLASH_B PIN_D1
 #define RED_A PIN_D2
@@ -14,9 +16,13 @@
 #define BTN_B1 PIN_B6
 #define BTN_B2 PIN_B7
 
+//Velocidade máxima do cruzamento
 const int MAX_LIMIT_SPEED = 60;
+
+//Tempo utilizado para o sinal verde
 const int YELLOW_TIME = 3;
 
+//Estados do Semáforo
 enum StateSemaphore { Sem_A, Sem_B };
 
 StateSemaphore semaphore;
